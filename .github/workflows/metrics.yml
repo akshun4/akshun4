@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.plugin.languages.details.svg
+
           # Options
           user: akshun4
           template: classic
@@ -39,8 +39,8 @@ jobs:
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 365
           plugin_languages_recent_load: 1000
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 1%
+          plugin_languages_sections: recently-used
+          plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_people: yes
           plugin_people_limit: 24
