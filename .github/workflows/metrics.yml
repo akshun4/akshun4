@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-
+          filename: metrics.plugin.languages.details.svg
           # Options
           user: akshun4
           template: classic
